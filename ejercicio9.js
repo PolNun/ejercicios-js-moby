@@ -25,6 +25,9 @@ console.log(sumarLosDosMenores([10, 343445353, 3453445, 3453545353453]));       
 console.log(sumarLosDosMenores([2, 9, 6, -1]));                                         // 8
 console.log(sumarLosDosMenores([879, 953, 694, -847, 342, 221, -91, -723, 791, -587])); // 563
 
+/* Esta es una alternativa que me costó bastante pensar y resolver,
+asi que opté por hacerlo distinto y más simple con el método filter */
+
 // function sacarNumerosNegativos(arrayNums) {
 //     const arrayPositivo = [];
 //     arrayNums.forEach((num, i) => {
